@@ -1,5 +1,5 @@
 {
-  "name": "flareswap-periphery",
+  "name": "@flare-swap/periphery",
   "description": "Peripheral smart contracts for interacting with FlareSwap",
   "version": "1.0.0",
   "keywords": [
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flare-swap/flareswap-periphery.git"
+    "url": "git+https://github.com/flare-swap/flareswap-periphery.git"
   },
   "homepage": "https://github.com/flare-swap/flareswap-periphery#readme",
   "dependencies": {
@@ -63,5 +63,9 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/flare-swap/flareswap-periphery/issues"
+  },
+  "main": "index.js"
 }
