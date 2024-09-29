@@ -97,6 +97,6 @@ contract NonfungibleTokenPositionDescriptor is INonfungibleTokenPositionDescript
         if (token == WETH9) {
             return TokenRatioSortOrder.DENOMINATOR;
         }
-        return 100; // Default priority for other tokens
+        return 0;
     }
 }
